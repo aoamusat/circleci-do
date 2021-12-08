@@ -1,5 +1,8 @@
 {
     "name": "circleci-do",
+    "repository": {
+        "url": "https://github.com/aoamusat/circleci-do"
+    },
     "version": "1.0.0",
     "description": "Automatic deployment to Digital ocean droplet using CircleCI",
     "main": "index.js",
@@ -9,8 +12,8 @@
     "devDependencies": {},
     "scripts": {
         "test": "jest",
-        "start": "node index.js"
+        "start": "nodemon index.js"
     },
     "author": "Akee Amusat",
-    "license": "ISC"
+    "license": "MIT"
 }
