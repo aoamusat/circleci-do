@@ -1,0 +1,16 @@
+{
+    "name": "circleci-do",
+    "version": "1.0.0",
+    "description": "Automatic deployment to Digital ocean droplet using CircleCI",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "jest",
+        "start": "node index.js"
+    },
+    "author": "Akee Amusat",
+    "license": "ISC"
+}
